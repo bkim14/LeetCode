@@ -1,20 +1,7 @@
 #include "stddef.h"
 #include <cstdio>
+#include "ListNode.h"
 
-struct ListNode {
-    int val;
-    ListNode* next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
-
-
-void printList(ListNode* list) {
-    ListNode* node = list;
-    while (node) {
-        printf("%d", node->val);
-        node = node->next;
-    }
-};
 
 class Solution {
 public:

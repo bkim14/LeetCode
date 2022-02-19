@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="19.removeNthNode.cpp">
+    <ClCompile Include="19.RemoveNthNode.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="23.mergeKSortedList.cpp">
+    <ClCompile Include="23.MergeKSortedList.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="142.LinkedListCycle2.cpp">
@@ -27,20 +27,25 @@
     <ClCompile Include="143.ReorderList.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="206.reverseLinkedList.cpp">
+    <ClCompile Include="206.ReverseLinkedList.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="206.reverseLinkedList_nonew.cpp">
+    <ClCompile Include="206.ReverseLinkedList_nonew.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="206.reverseLinkedList_recursive.cpp">
+    <ClCompile Include="206.ReverseLinkedList_recursive.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="LinkedListCycle.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="소스.cpp">
+    <ClCompile Include="MergeTwoSortedList.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ListNode.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

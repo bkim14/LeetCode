@@ -1,23 +1,11 @@
 #include "stddef.h"
 #include <cstdio>
-
-struct ListNode {
-    int val;
-    ListNode* next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
+#include "ListNode.h"
 
 
-void printList(ListNode* list) {
-    ListNode* node = list;
-    while (node) {
-        printf("%d", node->val);
-        node = node->next;
-    }
-}
 
 ListNode* slow(ListNode* node) {
-    return node->next||NULL;
+    if(node->next) return node->next;
     return NULL;
 }
 
