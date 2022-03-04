@@ -30,9 +30,6 @@ int main() {
 
     ListNode* node1 = new ListNode(1);
     ListNode* node2 = node1->next = new ListNode(2);
-    ListNode* node3 = node2->next = new ListNode(3);
-    ListNode* node4 = node3->next = new ListNode(4);
-    ListNode* node5 = node4->next = new ListNode(5);
 
     Solution sol;
     sol.removeNthFromEnd(node1,2);
