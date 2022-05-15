@@ -48,6 +48,18 @@
     <ClCompile Include="318.MaximumProductofWordLengths.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2007.FindOriginalArrayFromDoubledArray.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mergeSort.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1302.DeepestLeavesSum.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="93.Restore IP Addresses.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ListNode.h">
